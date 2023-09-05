@@ -1,0 +1,6 @@
+kata = str(input())
+Kata = kata.replace(" ", "").lower()
+if Kata == Kata[::-1]:
+    print("Palindrom")
+else:
+    print("Bukan palindrom")
